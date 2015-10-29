@@ -30,7 +30,7 @@ nav > a {
 	padding: 1% 5%;
 	border-radius: 5%;
 	text-decoration: none;
-	background-color: transparent;
+	 background-color: rgba(0, 0, 0, .1);
 }
 
 .active {
@@ -39,25 +39,21 @@ nav > a {
 
 aside {
 	display: inline-block;
-	background-color: #ff6666;
+	background-color: #66ff55;
 	padding: 2% 1%;
 	width: 20%;
 	height: 100%;
 }
 
 aside a {
-	color: #000000;
-	background: #d3d3d3;
-	border-color: #000000;
-	border-width: 3px;
+	display: inline-table;
+	margin: 5%;
 }
 
 aside a img {
-	display: table-column;
 	width: 150px;
 	border-color: #000000;
 	border-width: 5px;
-	margin: 1%;
 }
 
 section {
@@ -68,6 +64,7 @@ section {
 }
 
 main {
-	background-color: #a3a3a3;
+	background-color: #ffffff;
+	display: inline-block;
 }
 
